@@ -5,6 +5,7 @@
 '             By: Duncan Murdock             '
 '                 Version: 1                 '
 '              Date: 01/12/2014              '
+'                License: MIT                '
 '--------------------------------------------'
 ' Converts files between CooRecorder output  '
 ' (Cybis DENDRO) and COFECHA input (Tucson). '

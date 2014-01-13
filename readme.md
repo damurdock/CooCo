@@ -8,7 +8,7 @@ CooRecorder is a tool commonly used in dendrochronology (tree-ring dating) to me
 CooCo is a very lightweight program, and only uses the standard Python libraries. The only requirement is Python 2.7.x.
 
 ## How do I use it?
-In the following examples, make sure you're in the same directory as the CooCo binary and that it can be executed, or use .\cooco.py or python cooco.py.
+In the following examples, use "./cooco.py" or "python cooco.py" as per your platform. 
 ### To convert one file
 ```
 cooco \path\to\file.txt -o \path\to\output.txt
@@ -24,9 +24,13 @@ cooco \path\to\file1.txt \path\to\file2.txt ...
 ```
 
 ## ToDos
+* Multi-platform binary releases
 * Make versioning compatible with [PEP 396](http://www.python.org/dev/peps/pep-0396/)
 * Submit to Pypi
 * Better commenting
 
+## License
+CooCo is licensed under the [MIT License](http://opensource.org/licenses/MIT), a copy of which is provided in the LICENSE file.
+
 ## Download
-Click "Releases" up at the top to download the latest release for your platform, or download "cooco.py".
+Binary releases will be available shortly, but for now you can download cooco.py and execute with your python distrobution.
